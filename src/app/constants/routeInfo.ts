@@ -1,4 +1,6 @@
-export const ROUTE_NUMBERS_FILTER_OPTIONS = [
+import { IRouteInfo } from "../models/routeInfo";
+
+export const ROUTE_NUMBERS_FILTER_OPTIONS: Array<IRouteInfo> = [
     {
       school_id: "BOS2",
       school_route_number: "3",
